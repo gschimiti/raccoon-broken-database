@@ -3,10 +3,6 @@
     this.source = databaseData;
   }
 
-  BrokenData.prototype.showSource = function () {
-    console.log(this.source);
-  }
-
   BrokenData.prototype.recoverNames = function () {
     const source = this.source;
           
